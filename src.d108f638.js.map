@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";AAIAA,QAAQC,IAAI","file":"src.d108f638.js","sourceRoot":"..\\src","sourcesContent":["// import createLightBoxGallery from './js/01-gallery';\r\n\r\n// createLightBoxGallery();\r\n\r\nconsole.log('It is index.js');\r\n"]}
