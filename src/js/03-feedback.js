@@ -12,8 +12,10 @@ const refs = {
 };
 
 if (storageValue) {
-  refs.email.value = storageValue.email;
-  refs.message.value = storageValue.message;
+  refs.email.value = storageValue.email === undefined ? '' : storageValue.email;
+  refs.message.value = storageValue.message === undefined ? '' : storageValue.message;
+  data.email = storageValue.email;
+  data.message = storageValue.message;
 }
 
 refs.form.addEventListener('input', throttle(onInputHandler, 500));
